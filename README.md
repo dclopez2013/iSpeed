@@ -23,4 +23,4 @@ except:
     print("Unable to execute command")
     
 
-![iSpeed Test Image](speedtesterforgithub.png)
+![iSpeed Test Image](speedtesterforgithub.PNG)
