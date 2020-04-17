@@ -260,10 +260,10 @@ color: rgb(61, 179, 158);</string>
    <widget class="QPushButton" name="goButton">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>120</y>
-      <width>21</width>
-      <height>21</height>
+      <x>240</x>
+      <y>90</y>
+      <width>81</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="font">
@@ -283,10 +283,10 @@ background-color: rgba(255, 255, 255, 0);</string>
    <widget class="QPushButton" name="resetButton">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>120</y>
-      <width>41</width>
-      <height>23</height>
+      <x>350</x>
+      <y>102</y>
+      <width>71</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
