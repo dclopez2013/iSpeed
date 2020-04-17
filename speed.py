@@ -207,8 +207,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "PySpeedTracker"))
-        self.label.setText(_translate("MainWindow", "Checking Upload Speeds"))
-        self.label_2.setText(_translate("MainWindow", "Checking Download Speeds"))
+        self.label.setText(_translate("MainWindow", "Checking Download Speeds"))
+        self.label_2.setText(_translate("MainWindow", "Checking Upload Speeds"))
         self.label_3.setText(_translate("MainWindow", "Python ISP Speed Checker"))
         self.label_4.setText(_translate("MainWindow", "Download"))
         self.label_6.setText(_translate("MainWindow", "MB/S"))

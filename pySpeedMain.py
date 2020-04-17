@@ -70,7 +70,7 @@ class ExampleApp(QtWidgets.QMainWindow, speed .Ui_MainWindow):
 
 
     def recordResults(self, results):
-        with open('employee_file.csv', mode='w') as speed_file:
+        with open('employee_file.csv', mode='a') as speed_file:
             speed_writer = csv.writer(speed_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             speed_writer.writerow(["Date",str(datetime.datetime.now()),"Download Speeds",round(results['download'] / 1000000, 3),"Upload Speeds",round(results['upload'] / 100000, 3)])
 
