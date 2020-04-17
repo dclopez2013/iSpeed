@@ -16,11 +16,11 @@ import sys
 print("converting ui to py")
 
 try:
-    os.system("<path to pyuic5.exe>\\pyuic5.exe <path to speed.ui file>\\speed.ui -o <where you want to output the speed.py file at>\\speed.py")
+    os.system("--path to pyuic5.exe--\\pyuic5.exe --path to speed.ui file--\\speed.ui -o --where you want to output the speed.py file at--\\speed.py")
 
     print("Conversion complete")
 except:
     print("Unable to execute command")
     
 
-![iSpeed Test Image](speedtesterforgithub.png)
+![iSpeed Test Image](speedtesterforgithub.PNG)
